@@ -23,6 +23,8 @@ public class AchivementManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+
         randomInt = Random.Range(0, 2);
         if (invSave.attemptsWithMundane > 1)
         {

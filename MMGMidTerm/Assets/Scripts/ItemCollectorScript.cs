@@ -34,7 +34,7 @@ public class ItemCollectorScript : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if(other.GetComponent<CollectablesClass>() != null)
+        if(other.GetComponent<CollectablesClass>() != null || other.GetComponent<EnterDoor>() || other.GetComponent<AnvilImprovement>())
         {
             OnNearInteractable();
         }
@@ -51,7 +51,7 @@ public class ItemCollectorScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<CollectablesClass>() != null)
+        if (other.GetComponent<CollectablesClass>() != null || other.GetComponent<EnterDoor>() || other.GetComponent<AnvilImprovement>())
         {
             OnExitInteractable();
         }

@@ -60,7 +60,10 @@ public class InventoryManager : MonoBehaviour
 
         if (item.UISlot == 1)
         {
-            Slot1.sprite = item.icon;
+            if (Slot1 != null)
+            {
+                Slot1.sprite = item.icon;
+            }
             invSave.SwordState = item;
             item.collected = true;
             ArticyGlobalVariables.Default.GargoyleDialogue.HasSword = true;

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 #endif
 
 namespace StarterAssets
@@ -50,6 +51,10 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
+
+		[Header("Add'l Inputs")]
+		[SerializeField]
+		Button InventoryButton;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -115,6 +120,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+			OpenInventory();
 		}
 
 		private void LateUpdate()
@@ -122,6 +128,13 @@ namespace StarterAssets
 			CameraRotation();
 		}
 
+		private void OpenInventory()
+		{
+			if (Input.GetKeyDown(KeyCode.I))
+			{
+				InventoryButton.onClick.Invoke();
+			}
+		}
 		private void GroundedCheck()
 		{
 			// set sphere position, with offset

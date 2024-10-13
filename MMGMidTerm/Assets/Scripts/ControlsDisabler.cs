@@ -16,6 +16,7 @@ public class ControlsDisabler : MonoBehaviour
         AnvilImprovement.OnImproveEnd += EnableInputs;
 
         playerRB = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -27,7 +28,8 @@ public class ControlsDisabler : MonoBehaviour
     public void DisableInputs()
     {
         gameObject.GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
-        playerRB.constraints = RigidbodyConstraints.FreezePosition;
+        playerRB.constraints = RigidbodyConstraints.FreezeAll;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void EnableInputs()
@@ -35,6 +37,7 @@ public class ControlsDisabler : MonoBehaviour
         gameObject.GetComponent<StarterAssetsInputs>().cursorInputForLook = true;
         playerRB.constraints = RigidbodyConstraints.None;
         playerRB.constraints = RigidbodyConstraints.FreezeRotation;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnDisable()
