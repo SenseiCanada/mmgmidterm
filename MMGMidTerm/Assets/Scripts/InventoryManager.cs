@@ -7,7 +7,6 @@ using TMPro;
 using Unity.VisualScripting;
 using Articy.Mmgmidterm.GlobalVariables;
 using UnityEditor;
-using static UnityEditor.Progress;
 
 public class InventoryManager : MonoBehaviour
 {
