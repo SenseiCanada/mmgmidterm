@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1080164415, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: loc_0x100000000000110_127
+  m_EditorClassIdentifier: 
+  mLocalizedStringsKeys:
+  - FFr_F2A0BB38.DisplayName
+  - FFr_0A9DE31A.DisplayName
+  - DFr_24F54D3F.Text
+  - DFr_6D4A2DC4.Text
+  - DFr_5D82D9BD.Text
+  - DFr_9A8AB1CE.Text
+  - DFr_C7C256A4.Text
+  - DFr_44D580A6.Text
+  - DFr_87131493.Text
+  - DFr_A1D4C4AB.Text
+  - DFr_D1F0C7DB.Text
+  - DFr_A7B8AE81.Text
+  - DFr_05299675.Text
+  - DFr_81E09B42.Text
+  - DFr_66EFDD2B.Text
+  - DFr_2E1331BE.Text
+  - DFr_9DF1B451.Text
+  - DFr_F005CEFC.Text
+  - DFr_B6DB0E20.Text
+  - DFr_53DBDA58.Text
+  - DFr_0AB1CD86.Text
+  - DFr_20D806C2.Text
+  - DFr_52BAF387.Text
+  - DFr_0C810964.Text
+  - Ntt_01467F8E.DisplayName
+  - Ntt_BBDD8D2C.DisplayName
+  mLocalizedStringsValues:
+  - Test1
+  - Gargoyle
+  - You again?
+  - Surprised?
+  - Don't get your nickers in a twist! What'll it be then?
+  - Yes, of course!
+  - Ready to enter?
+  - Yes, let me pass.
+  - No, not yet.
+  - You should use the anvil behind you to upgrade your sword. It'll give you the
+    edge you sorely need against the dragon
+  - You seem to be well-equipped for dragon slaying! Are you ready to take on the
+    beast?
+  - Yes, let me pass.
+  - No, not yet.
+  - Hold! Beyond this portal lies a defenceless village beset by a fearsome dragon.
+    Go gird yourself with yonder mighty sword and return.
+  - Why don't you use the anvil behind you to empower your blade for next time?
+  - You have been recalled back in time. The dragon is poised yet again to lay waste
+    to the village. Are you ready for another attempt?
+  - Is there nothing here that could give me an edge against the monster?
+  - Ready for another attempt?
+  - Once more into the breach?
+  - Why are there so many useless tools strewn about? I will need more than pitchforks
+    to save this village.
+  - You're awfully sure of your methods, aren't you hero?
+  - I must fell the dragon more quickly. The village will only be spared if my sword
+    becomes powerful enough to fell it in a single strike.
+  - Each time I slay this dragon, the villagers' lives are upended. I must do better
+    to ensure they can avoid this fate.
+  - Such a noble aim. Then surely your sword and your dedication are sufficient.
+    No need to burden your bags with these pointless implements.
+  - Gargoyle
+  - Player
+  mLocalizedAudioAssetsKeys: []
+  mLocalizedAudioAssetsValues: 

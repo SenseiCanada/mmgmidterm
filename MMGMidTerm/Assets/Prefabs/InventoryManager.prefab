@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7738857573147395983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2275173766506481102}
+  - component: {fileID: 4523506556217649111}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2275173766506481102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738857573147395983}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4523506556217649111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738857573147395983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e33659c0269d043bdcc49e30adb7b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slot1: {fileID: 225016700784241358, guid: 85cacd14677f38e459874ac4a50c1399, type: 3}
+  Slot2: {fileID: 4643257144528539456, guid: b3073d0041eb6fa4b890861179a87937, type: 3}
+  clearSlot: {fileID: 0}
+  invPwrTxt: {fileID: 1307610357668516754, guid: 1adbe6a7f4f036d4c8afb7f0c1dad8e2, type: 3}
+  swordPwr: 0
+  sword: {fileID: 11400000, guid: 994158af9987333498b97a754e70d7b4, type: 2}
+  swordParent: {fileID: 132402441210138065, guid: 16b0e378b6df89d4998735dad4470d41, type: 3}
+  invSave: {fileID: 11400000, guid: f063281aca633fd4bbbc8a79224c561f, type: 2}
